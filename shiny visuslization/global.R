@@ -28,13 +28,8 @@ restaurants$rest_name =factor(restaurants$rest_name, levels = restaurants$rest_n
 restaurants_cuisine = read.csv('restaurant_cuisine_geoloc.csv',header=TRUE)
 
 # Average cost
-by_avgcost= restaurants_cuisine %>% select(restaurant_name,average_cost,rating_category) %>% arrange(desc(average_cost))
-total=600
-by_avgcost$padding <- (total - by_avgcost$average_cost) / 2 
-molten <- melt(by_avgcost, id.var=c("restaurant_name","rating_category"))
-molten <- molten[order(molten$variable, decreasing = T), ]
-#molten$restaurant_name <- factor(molten$rest_name,levels = rev(levels(molten$restaurant_name)))
-
+by_avgcost= restaurants_cuisine [!duplicated(restaurants_cuisine$restaurant_name),]%>% select(restaurant_name,average_cost,rating_category) %>% arrange(desc(average_cost))
+by_avgcost$restaurant_name <- factor(by_avgcost$restaurant_name,by_avgcost$restaurant_name[order(by_avgcost$average_cost)])
 
 
 pal=brewer.pal(9, "Dark2")

@@ -17,18 +17,16 @@ fluidPage(
                       
                       fluidRow(
                               column(4, 
-                                  leafletOutput("restaurant_map", height=600)),
+                                  leafletOutput("restaurant_map", height=700)),
                                column(6, 
-                                      fluidRow(plotOutput("rating")))),
-                     fluidRow(
-                       column(8, 
-                              plotOutput("averagecost", height=300)))),
-             tabPanel("Location",
+                                      fluidRow(plotOutput("averagecost", height=350)),
+                                       plotOutput("rating")))),
+             tabPanel("Price",
                       fluidRow(
-                        column(10,
-                               htmlOutput("costlocation"))),
-                      fluidRow(
-                                column(10,
+                        column(8,
+                               htmlOutput("costlocation")),
+                      
+                        column(4,
                                 plotOutput("ratingcost")))),
              tabPanel("Reviews",
                       selectInput(inputId='restaurant', 

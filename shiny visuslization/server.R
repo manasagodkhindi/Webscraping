@@ -36,14 +36,13 @@ function(input,output, session){
    })
    
    output$averagecost = renderPlot({
-        ggplot(molten, aes(x = restaurant_name)) + 
-       geom_bar( aes( y = value, fill = rating_category),stat = "identity", width = .6         ,position="stack")  + 
-          coord_flip() +
-       labs(title="Average cost Of Restaurants") +
-       theme_tufte() +  
+     ggplot(by_avgcost, aes(x = restaurant_name)) + 
+       geom_col( aes( y = average_cost), fill = "burlywood4", width = .6, position="stack") +  
+       labs(title="Average Cost of Restaurants", x= "Restaurants", y="Cost($)") +
+       theme_bw() +  
        theme(plot.title = element_text(hjust = .5), 
-             axis.ticks = element_blank()) +   
-       scale_fill_brewer(palette = "Accent")  
+             axis.text.x = element_text(angle =90))   
+     
    })
    
    output$review = renderTable({
@@ -60,11 +59,11 @@ function(input,output, session){
    output$ratingcost = renderPlot({
      restaurants_cuisine[!duplicated(restaurants_cuisine$restaurant_name),] %>% 
        ggplot(aes(rating,average_cost))+
-       geom_point(aes(color=rating_category)) + 
-       coord_cartesian(xlim = c(3.5,5))+geom_smooth(method='lm',se = FALSE) +
+       geom_point(size=2.5) + 
+       coord_cartesian(xlim = c(3.5,5)) +
        theme_classic()+
-       labs(x= "Rating", y= "Cost", title= "Cost by Rating")+              
-       theme(plot.title =element_text(hjust = .5, size= 10))
+       labs(x= "Rating", y= "Cost($)", title= "Cost by Rating")+              
+       theme(plot.title =element_text(hjust = .5, size= 15))
    })
    
    output$reviewcount <- renderInfoBox({
@@ -119,7 +118,7 @@ function(input,output, session){
                          hAxes = "[{title:'Neighborhood'}]",
                         title="Cost by Neighborhood", 
                         legend="none",
-                        height=300))
+                        height=400))
     
   })
   
