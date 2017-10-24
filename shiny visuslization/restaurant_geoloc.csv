@@ -1,0 +1,31 @@
+address,postal_code,rest_name,average_cost,additional_info,rating,rating_category,lon,lat
+"16th Street, New York, NY 10003",NY 10003,Union Square Cafe,75,"['Full Bar Available', 'Nightlife', 'Wifi', 'Lunch Menu']",4.3,good,-73.987015,40.7349569
+"11 Madison Avenue, New York, NY 10010",NY 10010,Eleven Madison Park,600,"['Full Bar Available', 'Farm-to-Table', 'Michelin Starred']",4.7,excellent,-73.9869677,40.7415114
+"225 E 60th Street, New York, NY 10022",NY 10022,Serendipity 3,75,['Desserts and Bakes'],4.3,good,-73.9649001,40.7618668
+"314 W 11th Street, New York, NY 10014",NY 10014,The Spotted Pig,70,"['Full Bar Available', 'Michelin Starred', 'Brunch', 'Nightlife', 'Gastro Pub']",4.6,excellent,-74.0066957,40.7356133
+"56 9th Avenue, New York, NY 10011",NY 10011,Old Homestead Steakhouse,140,"['Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Nightlife', 'Lunch Menu']",4,good,-74.0047629,40.7412007
+"Madison Square Park, 23rd & Madison, New York, NY 10010",NY 10010,Shake Shack,30,"['Takeout Available', 'Wine and Beer', 'Outdoor Seating', 'Dog Friendly', 'Gluten Free Options']",4.9,excellent,-73.9875635,40.7420371
+"125 W 55th Street, New York, NY 10019",NY 10019,Estiatorio Milos,250,"['Serves Alcohol', 'Lunch Menu']",4.1,good,-73.9789514,40.763598
+"8801 3rd Avenue, Brooklyn, NY 11209",NY 11209,Cebu,80,"['Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Brunch', 'Valet Parking Available', 'Lunch Menu']",4,good,-74.0314416,40.6218995
+"375 Greenwich Street, New York, NY 10013",NY 10013,Tribeca Grill,75,"['Takeout Available', 'Wine']",3.9,average,-74.009899,40.719608
+"16 Bank Street, New York, NY 10014",NY 10014,The Waverly Inn and Garden,120,"['Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Brunch', 'Nightlife']",3.7,average,-74.0022286,40.7369354
+"55 3rd Avenue, New York, NY 10003",NY 10003,The Smith,90,"['Breakfast', 'Delivery', 'Takeout Available', 'Full Bar Available', 'Lunch Menu', 'Brunch']",4.2,good,-73.988401,40.7309849
+"1420 3rd Avenue, New York, NY 10028",NY 10028,Nancy Lee's Pig Heaven,60,"['Delivery', 'Takeout Available', 'Serves Alcohol']",3.8,average,-73.9568392,40.7754503
+"62-29 Roosevelt Avenue, Queens, NY 11377",NY 11377,Jollibee,20,['Takeout Available'],3.6,average,-73.9011693,40.7460243
+"900 7th Avenue, New York, NY 10019",NY 10019,Trattoria Dell'Arte,120,"['Takeout Available', 'Serves Alcohol', 'Outdoor Seating', 'Brunch', 'Lunch Menu']",4.3,good,-73.9804753,40.765358
+"377 Greenwich Street, New York, NY 10013",NY 10013,Locanda Verde,100,"['Breakfast', 'Takeout Available', 'Wine', 'Outdoor Seating']",4.4,good,-74.009854,40.7198459
+"2370 Belmont Avenue, Bronx, NY 10458",NY 10458,Antonio's Trattoria,75,"['Delivery', 'Takeout Available', 'Full Bar Available', 'Lunch Menu', 'Wifi']",3.9,average,-73.886462,40.854225
+"119 7th Avenue, New York, NY 10011",NY 10011,Cafeteria,75,"['Breakfast', 'Delivery', 'Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Nightlife']",4.3,good,-73.9979588,40.7404961
+"17 Orchard Street, New York, NY 10002",NY 10002,The Fat Radish,75,"['Serves Alcohol', 'Nightlife', 'Farm-to-Table', 'Gastro Pub']",3.6,average,-73.9918688,40.7153028
+"105 Hudson Street, New York, NY 10013",NY 10013,Nobu,250,"['Full Bar Available', 'Luxury Dining', 'Private Dining Area Available']",4.3,good,-74.0089934,40.7195265
+"430 Lafayette Street, New York, NY 10003",NY 10003,Indochine,120,['Serves Alcohol'],3.6,average,-73.9924719,40.7292592
+"1900 Broadway, New York, NY 10023",NY 10023,Cafe Fiorello,120,"['Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Brunch', 'Vegetarian Friendly']",4.1,good,-73.9813859,40.7715824
+"20 E 60th Street, New York, NY 10021",NY 10021,Le Bilboquet,80,"['Wine and Beer', 'Serves Cocktails', 'Outdoor Seating']",3.7,average,-73.970589,40.763807
+"154 E 79th Street, New York, NY 10021",NY 10021,Candle 79,75,"['Beer', 'Gluten Free Options', 'Vegetarian Friendly', 'Vegan Options', 'Farm-to-Table']",4.1,good,-73.9587231,40.7746521
+"205 East Houston Street, New York, NY 10002",NY 10002,Katz's Delicatessen,30,"['Breakfast', 'Takeout Available', 'Wine and Beer', 'Kosher']",4.9,excellent,-73.9875029,40.7222166
+"14 Mott Street, New York, NY 10013",NY 10013,Ajisen Ramen,30,"['Takeout Available', 'Serves Alcohol']",3.6,average,-73.9985052,40.7141563
+"230 5th Avenue, New York, NY 10001",NY 10001,230 Fifth,120,"['Full Bar Available', 'Nightlife']",3.7,average,-73.9884259,40.7441382
+"171 Lafayette Avenue, Brooklyn, NY 11238",NY 11238,Olea,80,"['Breakfast', 'Takeout Available', 'Serves Alcohol', 'Outdoor Seating', 'Wifi', 'Vegetarian Friendly']",4.2,good,-73.970614,40.6878149
+"235 Mulberry Street, New York, NY 10012",NY 10012,Rubirosa,85,"['Delivery', 'Takeout Available', 'Full Bar Available', 'Lunch Menu', 'Gluten Free Options']",4,good,-73.9962332,40.7227528
+"3 E 52nd Street, New York, NY 10022",NY 10022,La Grenouille,250,"['Takeout Available', 'Serves Alcohol', 'Wifi', 'Lunch Menu']",3.9,average,-73.9755707,40.7596796
+"10 W 32nd Street, New York, NY 10001",NY 10001,Miss Korea BBQ,60,"['Takeout Available', 'Full Bar Available', 'Serves Cocktails']",3.8,average,-73.9864501,40.7473402

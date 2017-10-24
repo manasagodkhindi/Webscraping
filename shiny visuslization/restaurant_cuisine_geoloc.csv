@@ -1,0 +1,42 @@
+,location,restaurant_name,cuisine,address,postal_code,average_cost,additional_info,rating,rating_category,lon,lat
+1,GRAMERCY-FLATIRON,Union Square Cafe,American,"16th Street, New York, NY 10003",NY 10003,75,"['Full Bar Available', 'Nightlife', 'Wifi', 'Lunch Menu']",4.3,good,-73.987015,40.7349569
+2,GRAMERCY-FLATIRON,Union Square Cafe, Italian,"16th Street, New York, NY 10003",NY 10003,75,"['Full Bar Available', 'Nightlife', 'Wifi', 'Lunch Menu']",4.3,good,-73.987015,40.7349569
+3,GRAMERCY-FLATIRON,Eleven Madison Park,American,"11 Madison Avenue, New York, NY 10010",NY 10010,600,"['Full Bar Available', 'Farm-to-Table', 'Michelin Starred']",4.7,excellent,-73.9869677,40.7415114
+4,UPPER EAST SIDE,Serendipity 3,American,"225 E 60th Street, New York, NY 10022",NY 10022,75,['Desserts and Bakes'],4.3,good,-73.9649001,40.7618668
+5,GREENWICH VILLAGE,The Spotted Pig,American,"314 W 11th Street, New York, NY 10014",NY 10014,70,"['Full Bar Available', 'Michelin Starred', 'Brunch', 'Nightlife', 'Gastro Pub']",4.6,excellent,-74.0066957,40.7356133
+6,GREENWICH VILLAGE,Old Homestead Steakhouse,American,"56 9th Avenue, New York, NY 10011",NY 10011,140,"['Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Nightlife', 'Lunch Menu']",4,good,-74.0047629,40.7412007
+7,GRAMERCY-FLATIRON,Shake Shack,American,"Madison Square Park, 23rd & Madison, New York, NY 10010",NY 10010,30,"['Takeout Available', 'Wine and Beer', 'Outdoor Seating', 'Dog Friendly', 'Gluten Free Options']",4.9,excellent,-73.9875635,40.7420371
+8,MIDTOWN,Estiatorio Milos,Greek,"125 W 55th Street, New York, NY 10019",NY 10019,250,"['Serves Alcohol', 'Lunch Menu']",4.1,good,-73.9789514,40.763598
+9,MIDTOWN,Estiatorio Milos, Mediterranean,"125 W 55th Street, New York, NY 10019",NY 10019,250,"['Serves Alcohol', 'Lunch Menu']",4.1,good,-73.9789514,40.763598
+10,FORT HAMILTON,Cebu,American,"8801 3rd Avenue, Brooklyn, NY 11209",NY 11209,80,"['Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Brunch', 'Valet Parking Available', 'Lunch Menu']",4,good,-74.0314416,40.6218995
+11,TRIBECA,Tribeca Grill,American,"375 Greenwich Street, New York, NY 10013",NY 10013,75,"['Takeout Available', 'Wine']",3.9,average,-74.009899,40.719608
+12,TRIBECA,Tribeca Grill, Mediterranean,"375 Greenwich Street, New York, NY 10013",NY 10013,75,"['Takeout Available', 'Wine']",3.9,average,-74.009899,40.719608
+13,GREENWICH VILLAGE,The Waverly Inn and Garden,American,"16 Bank Street, New York, NY 10014",NY 10014,120,"['Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Brunch', 'Nightlife']",3.7,average,-74.0022286,40.7369354
+14,EAST VILLAGE,The Smith,American,"55 3rd Avenue, New York, NY 10003",NY 10003,90,"['Breakfast', 'Delivery', 'Takeout Available', 'Full Bar Available', 'Lunch Menu', 'Brunch']",4.2,good,-73.988401,40.7309849
+15,UPPER EAST SIDE,Nancy Lee's Pig Heaven,Taiwanese,"1420 3rd Avenue, New York, NY 10028",NY 10028,60,"['Delivery', 'Takeout Available', 'Serves Alcohol']",3.8,average,-73.9568392,40.7754503
+16,UPPER EAST SIDE,Nancy Lee's Pig Heaven, BBQ,"1420 3rd Avenue, New York, NY 10028",NY 10028,60,"['Delivery', 'Takeout Available', 'Serves Alcohol']",3.8,average,-73.9568392,40.7754503
+17,WOODSIDE,Jollibee,Filipino,"62-29 Roosevelt Avenue, Queens, NY 11377",NY 11377,20,['Takeout Available'],3.6,average,-73.9011693,40.7460243
+18,MIDTOWN,Trattoria Dell'Arte,Italian,"900 7th Avenue, New York, NY 10019",NY 10019,120,"['Takeout Available', 'Serves Alcohol', 'Outdoor Seating', 'Brunch', 'Lunch Menu']",4.3,good,-73.9804753,40.765358
+19,TRIBECA,Locanda Verde,Italian,"377 Greenwich Street, New York, NY 10013",NY 10013,100,"['Breakfast', 'Takeout Available', 'Wine', 'Outdoor Seating']",4.4,good,-74.009854,40.7198459
+20, BELMONT,Antonio's Trattoria,Italian,"2370 Belmont Avenue, Bronx, NY 10458",NY 10458,75,"['Delivery', 'Takeout Available', 'Full Bar Available', 'Lunch Menu', 'Wifi']",3.9,average,-73.886462,40.854225
+21, BELMONT,Antonio's Trattoria,Italian,"2370 Belmont Avenue, Bronx, NY 10458",NY 10458,75,"['Delivery', 'Takeout Available', 'Full Bar Available', 'Lunch Menu', 'Wifi']",3.9,average,-73.886462,40.854225
+22,CHELSEA,Cafeteria,American,"119 7th Avenue, New York, NY 10011",NY 10011,75,"['Breakfast', 'Delivery', 'Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Nightlife']",4.3,good,-73.9979588,40.7404961
+23,LOWER EAST SIDE,The Fat Radish,British,"17 Orchard Street, New York, NY 10002",NY 10002,75,"['Serves Alcohol', 'Nightlife', 'Farm-to-Table', 'Gastro Pub']",3.6,average,-73.9918688,40.7153028
+24,TRIBECA,Nobu,Japanese,"105 Hudson Street, New York, NY 10013",NY 10013,250,"['Full Bar Available', 'Luxury Dining', 'Private Dining Area Available']",4.3,good,-74.0089934,40.7195265
+25,GREENWICH VILLAGE,Indochine,Vietnamese,"430 Lafayette Street, New York, NY 10003",NY 10003,120,['Serves Alcohol'],3.6,average,-73.9924719,40.7292592
+26,GREENWICH VILLAGE,Indochine,French,"430 Lafayette Street, New York, NY 10003",NY 10003,120,['Serves Alcohol'],3.6,average,-73.9924719,40.7292592
+27,LINCOLN SQUARE,Cafe Fiorello,American,"1900 Broadway, New York, NY 10023",NY 10023,120,"['Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Brunch', 'Vegetarian Friendly']",4.1,good,-73.9813859,40.7715824
+28,LINCOLN SQUARE,Cafe Fiorello,Italian,"1900 Broadway, New York, NY 10023",NY 10023,120,"['Takeout Available', 'Full Bar Available', 'Outdoor Seating', 'Brunch', 'Vegetarian Friendly']",4.1,good,-73.9813859,40.7715824
+29, UPPER EAST SIDE,Le Bilboquet,French,"20 E 60th Street, New York, NY 10021",NY 10021,80,"['Wine and Beer', 'Serves Cocktails', 'Outdoor Seating']",3.7,average,-73.970589,40.763807
+30, UPPER EAST SIDE,Le Bilboquet, Cajun,"20 E 60th Street, New York, NY 10021",NY 10021,80,"['Wine and Beer', 'Serves Cocktails', 'Outdoor Seating']",3.7,average,-73.970589,40.763807
+31,UPPER EAST SIDE,Candle 79,American,"154 E 79th Street, New York, NY 10021",NY 10021,75,"['Beer', 'Gluten Free Options', 'Vegetarian Friendly', 'Vegan Options', 'Farm-to-Table']",4.1,good,-73.9587231,40.7746521
+32,LOWER EAST SIDE,Katz's Delicatessen,Sandwich,"205 East Houston Street, New York, NY 10002",NY 10002,30,"['Breakfast', 'Takeout Available', 'Wine and Beer', 'Kosher']",4.9,excellent,-73.9875029,40.7222166
+33,LOWER EAST SIDE,Ajisen Ramen,Japanese,"14 Mott Street, New York, NY 10013",NY 10013,30,"['Takeout Available', 'Serves Alcohol']",3.6,average,-73.9985052,40.7141563
+34,GRAMERCY-FLATIRON,230 Fifth,BarFood,"230 5th Avenue, New York, NY 10001",NY 10001,120,"['Full Bar Available', 'Nightlife']",3.7,average,-73.9884259,40.7441382
+35,FORT GREENE,Olea,Mediterranean,"171 Lafayette Avenue, Brooklyn, NY 11238",NY 11238,80,"['Breakfast', 'Takeout Available', 'Serves Alcohol', 'Outdoor Seating', 'Wifi', 'Vegetarian Friendly']",4.2,good,-73.970614,40.6878149
+36,FORT GREENE,Olea, Tapas,"171 Lafayette Avenue, Brooklyn, NY 11238",NY 11238,80,"['Breakfast', 'Takeout Available', 'Serves Alcohol', 'Outdoor Seating', 'Wifi', 'Vegetarian Friendly']",4.2,good,-73.970614,40.6878149
+37,LOWER EAST SIDE,Rubirosa,Italian,"235 Mulberry Street, New York, NY 10012",NY 10012,85,"['Delivery', 'Takeout Available', 'Full Bar Available', 'Lunch Menu', 'Gluten Free Options']",4,good,-73.9962332,40.7227528
+38,LOWER EAST SIDE,Rubirosa,Italian,"235 Mulberry Street, New York, NY 10012",NY 10012,85,"['Delivery', 'Takeout Available', 'Full Bar Available', 'Lunch Menu', 'Gluten Free Options']",4,good,-73.9962332,40.7227528
+39,MIDTOWN,La Grenouille,French,"3 E 52nd Street, New York, NY 10022",NY 10022,250,"['Takeout Available', 'Serves Alcohol', 'Wifi', 'Lunch Menu']",3.9,average,-73.9755707,40.7596796
+40,GRAMERCY,Miss Korea BBQ,Korean,"10 W 32nd Street, New York, NY 10001",NY 10001,60,"['Takeout Available', 'Full Bar Available', 'Serves Cocktails']",3.8,average,-73.9864501,40.7473402
+41,GRAMERCY,Miss Korea BBQ, BBQ,"10 W 32nd Street, New York, NY 10001",NY 10001,60,"['Takeout Available', 'Full Bar Available', 'Serves Cocktails']",3.8,average,-73.9864501,40.7473402
