@@ -45,17 +45,7 @@ function(input,output, session){
      
    })
    
-   output$review = renderTable({
-            
-           t(rest_reviews()%>% distinct(rest_name,review_count,rating, additional_info) %>%select(review_count,rating, additional_info))
-                 
-            #ggplot(by_review, aes(x=rest_name, y=review_count))+ 
-                # geom_col( fill = "darkgreen")+
-                # theme_bw() + 
-            #labs(x= "Restaurants", y= "reviews", title= "Restaurants by ReviewCounts")+              theme(plot.title =element_text(hjust = .5, size= 10) , 
-               #axis.text.x = element_text(angle=90, vjust=0.5))
-     
-   })
+   
    output$ratingcost = renderPlot({
      restaurants_cuisine[!duplicated(restaurants_cuisine$restaurant_name),] %>% 
        ggplot(aes(rating,average_cost))+
@@ -67,19 +57,20 @@ function(input,output, session){
    })
    
    output$reviewcount <- renderInfoBox({
-     value = (rest_reviews()$review_count)
+     value = (rest_reviews()[!duplicated(rest_reviews()$rest_name),]$review_count)
      
-     infoBox(tags$p("Review Count", style = "font-size: 80%;"), value, color= "aqua", fill= TRUE)
+     infoBox(("Review Count"), value, color= "aqua", fill= TRUE)
    })
    
    output$revrating <- renderInfoBox({
-     value = rest_reviews()$rating
+     value = rest_reviews()[!duplicated(rest_reviews()$rest_name),]$rating
      infoBox("rating", value, color= "aqua", fill= TRUE)
    })
    
    
    output$reviewcloud = renderWordcloud2({
      review_corpus=Corpus(VectorSource(rest_reviews()$review))
+     review_corpus=tm_map(review_corpus, function(x) iconv(enc2utf8(x), sub = "bytes"))
      
      #remove punctuation
      review_corpus = tm_map(review_corpus, removePunctuation)

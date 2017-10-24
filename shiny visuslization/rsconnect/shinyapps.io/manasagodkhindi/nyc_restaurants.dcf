@@ -1,0 +1,12 @@
+name: nyc_restaurants
+title: nyc_restaurants
+username:
+account: manasagodkhindi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 228928
+bundleId: 1043630
+url: https://manasagodkhindi.shinyapps.io/nyc_restaurants/
+when: 1508865676.42808
+asMultiple: FALSE
+asStatic: FALSE

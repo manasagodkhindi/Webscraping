@@ -17,7 +17,7 @@ library (shinydashboard)
 
 
 
-restaurants_reviews= read.csv('restaurants_reviews_manipulated.csv',header=TRUE)
+restaurants_reviews= read.csv('restaurants_reviews_manipulated.csv',header=TRUE, encoding = 'ISO-8859-1')
 
 restaurants = read.csv('restaurant_geoloc.csv',header=TRUE)
 
@@ -38,6 +38,5 @@ pal=brewer.pal(9, "Dark2")
 by_neighborhood = restaurants_cuisine[!duplicated(restaurants_cuisine$restaurant_name),] %>% group_by(location) %>% summarise(avg_cost= mean(average_cost)) 
 
 #by reviews
-restaurants_reviews = restaurants_reviews %>% group_by(rest_name) %>% mutate(review_count= n()) %>%                     arrange(desc(review_count)) 
-restaurants_reviews$rest_name= factor(restaurants_reviews$rest_name, 
-                                      restaurants_reviews$rest_name[order(-restaurants_reviews$review_count)]) 
+restaurants_reviews = restaurants_reviews %>% group_by(rest_name) %>% mutate(review_count= n()) %>% arrange(desc(review_count)) 
+restaurants_reviews$rest_name= factor(restaurants_reviews$rest_name, restaurants_reviews$rest_name[order(-restaurants_reviews$review_count)]) 
