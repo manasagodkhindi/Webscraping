@@ -24,22 +24,24 @@ fluidPage(
              tabPanel("Price",
                       fluidRow(
                         column(8,
-                               htmlOutput("costlocation")),
+                               plotOutput("costlocation")),
                       
                         column(4,
                                 plotOutput("ratingcost")))),
-             tabPanel("Reviews",
-                      selectInput(inputId='restaurant', 
-                                  label= 'Restaurant', 
-                                  choices= unique(restaurants_cuisine$restaurant_name)),
-                      fluidRow(column(8,wordcloud2Output("reviewcloud")),
-                               column(4,infoBoxOutput("reviewcount", width= 7),
-                                     (infoBoxOutput("revrating", width = 7)))))
-                       
-             )
-        )
-  
-    
+            tabPanel("Reviews",
+                     selectInput(inputId='restaurant', 
+                                 label= 'Restaurant', 
+                                 choices= unique(restaurants_cuisine$restaurant_name)),
+                     fluidRow(column(4,wordcloud2Output("posreviewcloud")),
+                              column(4,wordcloud2Output("negreviewcloud")),
+                              column(4,infoBoxOutput("reviewcount", width= 7),
+                                     (infoBoxOutput("revrating", width = 7)))),
+                     fluidRow(column(6,plotOutput("emotionsplot")))
+                     
+            )
+          )
+)
+
           
     
   

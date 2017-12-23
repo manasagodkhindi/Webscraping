@@ -14,7 +14,9 @@ library(ggmap)
 library(googleVis)
 library(DT)
 library (shinydashboard)
-
+library(syuzhet)
+library(RSentiment)
+library(stringr)
 
 
 restaurants_reviews= read.csv('restaurants_reviews_manipulated.csv',header=TRUE, encoding = 'ISO-8859-1')
@@ -32,11 +34,11 @@ by_avgcost= restaurants_cuisine [!duplicated(restaurants_cuisine$restaurant_name
 by_avgcost$restaurant_name <- factor(by_avgcost$restaurant_name,by_avgcost$restaurant_name[order(by_avgcost$average_cost)])
 
 
-pal=brewer.pal(9, "Dark2")
+pal=brewer.pal(8, "Dark2")
 
 #cost location
 by_neighborhood = restaurants_cuisine[!duplicated(restaurants_cuisine$restaurant_name),] %>% group_by(location) %>% summarise(avg_cost= mean(average_cost)) 
-
+by_neighborhood$location= factor(by_neighborhood$location,by_neighborhood$location[order(by_neighborhood$avg_cost)])
 #by reviews
 restaurants_reviews = restaurants_reviews %>% group_by(rest_name) %>% mutate(review_count= n()) %>% arrange(desc(review_count)) 
 restaurants_reviews$rest_name= factor(restaurants_reviews$rest_name, restaurants_reviews$rest_name[order(-restaurants_reviews$review_count)]) 
